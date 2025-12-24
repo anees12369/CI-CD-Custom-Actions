@@ -12,8 +12,8 @@ outputs:
     description: time greeted
 
 runs:
-  using: node20
-  main: dist/index.js # This file contains the JavaScript logic/code
+  using: "node20"
+  main: "dist/index.js" # This file contains the JavaScript logic/code
 
 
 

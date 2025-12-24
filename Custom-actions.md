@@ -10,11 +10,11 @@
 
 **How do you create one?**
 ---
-1️⃣ Create a new GitHub repo
-2️⃣ Add an `action.yml` file
-3️⃣ Write the action logic (JS / Docker / YAML)
-4️⃣ Commit and tag a release (v1, v1.0.0)
-5️⃣ (Optional) Publish to GitHub Marketplace
+- 1️⃣ Create a new GitHub repo
+- 2️⃣ Add an `action.yml` file
+- 3️⃣ Write the action logic (JS / Docker / YAML)
+- 4️⃣ Commit and tag a release (v1, v1.0.0)
+- 5️⃣ (Optional) Publish to GitHub Marketplace
 
 **Benefits of custom actions**
 ---
@@ -36,9 +36,9 @@
 ---
 - The action.yml file is the **metadata definition**.
 
-- A metadata definition will describe how the action will work, it's not the actual logic (code)
+- A metadata definition will describe how the action will work, **it's not the actual logic** (code)
 
 - The `action.yaml` file tells GitHub:, **What the action is called, What inputs it accepts, Whether it’s JavaScript, Docker, or composite, What file to run, What environment it needs**
 
-- Without metadata, GitHub wouldn’t know how to execute your action
+- The logic is written using **JS, Docker (containers), or composite (using existing actions and shell commands)**
 
