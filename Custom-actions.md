@@ -2,7 +2,7 @@
 
 **What are Custom Github Actions?**
 ---
-- Custom actions are a fantastic way to automate parts of your workflow that are **specific to your project**
+- Custom actions are a way to automate parts of your workflow that are **specific to your project**
 
 - They're **reusable units of code** that **automate specific tasks** in your CI/CD pipeline and can be used in **multiple workflows**
 
@@ -31,3 +31,14 @@
 ![alt text](../Screenshots/image-5.png)
 
 - Or it can be used locally, by referencing the path 
+
+**The `action.yaml` file**
+---
+- The action.yml file is the **metadata definition**.
+
+- A metadata definition will describe how the action will work, it's not the actual logic (code)
+
+- The `action.yaml` file tells GitHub:, **What the action is called, What inputs it accepts, Whether it’s JavaScript, Docker, or composite, What file to run, What environment it needs**
+
+- Without metadata, GitHub wouldn’t know how to execute your action
+

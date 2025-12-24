@@ -1,0 +1,19 @@
+name: My first time creating a custom action in JavaScript
+
+description: This custom action will greet someone 
+inputs:
+  who-to-greet: #Input name
+    description: Who to greet
+    required: true # An input must be provided
+    default: Hello #If no input is provided
+
+outputs: 
+  time:
+    description: time greeted
+
+runs:
+  using: node20
+  main: dist/index.js # This file contains the JavaScript logic/code
+
+
+
